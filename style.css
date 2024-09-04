@@ -1,0 +1,61 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+.btn-dark-green {
+    background-color: #6bac3d; /* Light green color */
+    color: #fefefe; /* Dark text for readability */
+}
+
+.bg-light-green {
+    background-color: #cffabb; /* Light green color */
+    color: #212529; /* Dark text for readability */
+}
+
+.text-light-bold-green {
+    color: #59815b; /* Adjust the color to your desired shade of green */
+    font-weight: bold;
+}
+
+.bg-dark-green {
+    background-color: #315620; /* Light green color */
+    color: #212529; /* Dark text for readability */
+}
+
+.bg-ligth-blue {
+    background-color: #315620; /* Light green color */
+    color: #212529; /* Dark text for readability */
+}
+
+.bg-card-dark-green {
+    background-color: #cffabb; /* Light green color */
+    color: #212529; /* Dark text for readability */
+}
+
+.circular-button {
+    border-radius: 50%;    /* Make the button circular */
+    width: 70px;           /* Equal width and height for a perfect circle */
+    height: 70px;          /* Equal width and height for a perfect circle */
+    background-color: #6bac3d;  /* Light green color */
+    color: white;          /* Text color */
+    border: none;          /* Remove default border */
+    display: flex;         /* Use flexbox to align items */
+    align-items: center;   /* Center the icon vertically */
+    justify-content: center;  /* Center the icon horizontally */
+    cursor: pointer;       /* Change cursor on hover */
+    font-size: 45px;       /* Adjust font size to fit within the circle */
+    line-height: 0;        /* Ensure no extra space around the icon */
+}
+
+
+
+
+
